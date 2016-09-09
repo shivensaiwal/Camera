@@ -43,6 +43,7 @@ public class MainActivity extends Activity {
             public void onLocationChanged(Location location) {
                 //System.out.println(location.getLatitude());
                 //System.out.println(location.getLongitude());
+                System.out.print("Hello");
             }
 
             @Override
